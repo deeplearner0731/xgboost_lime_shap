@@ -1,0 +1,1 @@
+This directory holds 100 simulated datasets at  beta= 0, 1, 2, 3 that illustrate the procedure described in the manuscript. If you need the full set of 500 replicates, simply generate them using the equation provided in the paper.
