@@ -1,1 +1,2 @@
-These files contain the doubly robust (DR) versions of the modified loss functions for continuous and binary outcomes, implemented within the XGBoostML framework.
+These files contain the doubly robust (DR) versions of the modified loss functions for continuous and binary outcomes for 1 replicate, implemented within the XGBoostML framework.
+You may easily extend the code to run 100 simulation replicates using the provided dataset.
