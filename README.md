@@ -20,9 +20,19 @@
 
 ## Getting Started
 
+### Main Notebooks for SHAP and LIME Interpretability
+
+The following notebooks provide end-to-end implementations for different outcome types:
+
+- `XGBoostML_LIME_SHAP_continuous.ipynb` – Continuous outcomes  
+- `XGBoostML_LIME_SHAP_binary.ipynb` – Binary outcomes  
+- `XGBoostML_LIME_SHAP_time_to_event.ipynb` – Time-to-event (survival) outcomes  
+
+> **Note:** Each notebook uses a fixed set of hyperparameters for XGBoostML (not necessarily optimal). You are encouraged to tune hyperparameters based on your data and application.
+
 ### Prerequisites
 
-Please ensure the following dependencies are installed:
+Please ensure the following Python packages are installed:
 
 - Python 3.7+
 - `xgboost`
@@ -32,9 +42,5 @@ Please ensure the following dependencies are installed:
 - `numpy`
 - `pandas`
 - `matplotlib`
-
-
-
-
 
 
