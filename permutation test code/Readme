@@ -1,3 +1,16 @@
-This folder contains the permutation test code for the continuous outcome setting based on the XGBoostML framework.
-To apply the method to binary or time-to-event outcomes, simply replace the A-learning and weight-learning components using the corresponding scripts:
-XGBoostML_LIME_SHAP_binary.ipynb for binary outcomes and XGBoostML_LIME_SHAP_time_to_event.ipynb for time-to-event outcomes.
+## Permutation Test for Continuous Outcomes
+
+This folder contains the permutation test code for continuous outcomes under the **XGBoostML** framework. The script outputs:
+
+- The global permutation *p*-value (based on 100 permutations by default)
+- Train and test AUC metrics for subgroup identification
+
+You can modify the number of permutations (e.g., increase from 100 to 500) by adjusting the loop settings in the code.
+
+### Extending to Binary or Time-to-Event Outcomes
+
+To apply the permutation testing procedure to binary or time-to-event outcomes, replace the A-learning and weight-learning components using the appropriate notebooks:
+
+- `XGBoostML_LIME_SHAP_binary.ipynb`   for binary outcomes  
+- `XGBoostML_LIME_SHAP_time_to_event.ipynb` for time-to-event outcomes
+
