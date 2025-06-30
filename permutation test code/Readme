@@ -1,1 +1,3 @@
-This folder contains the permutation test code based on XGBoostML
+This folder contains the permutation test code for the continuous outcome setting based on the XGBoostML framework.
+To apply the method to binary or time-to-event outcomes, simply replace the A-learning and weight-learning components using the corresponding scripts:
+XGBoostML_LIME_SHAP_binary.ipynb for binary outcomes and XGBoostML_LIME_SHAP_time_to_event.ipynb for time-to-event outcomes.
