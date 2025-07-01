@@ -1,3 +1,4 @@
 These files contain the doubly robust (DR) versions of the modified loss functions for continuous and binary outcomes for 1 replicate, implemented within the XGBoostML framework.
+The illustrative dataset is generated under a treatment effect setting with beta=1 and beta_0=1.
 You may easily extend the code to run 100 simulation replicates using the provided dataset.
  
